@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.16.14",
+    "@wdio/browserstack-service": "^8.16.15",
+    "@wdio/cli": "^8.16.3",
+    "@wdio/local-runner": "^8.16.4",
+    "@wdio/mocha-framework": "^8.16.3",
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "@wdio/spec-reporter": "^8.16.3",
+    "chromedriver": "^117.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts",
+    "allure-reporter": "allure generate --clean ./reports/allure/allure-results && allure open",
+    "wdio-bstack":"wdio run ./wdio.bstack.conf.ts"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.24.0",
+    "node-fetch": "^2.7.0"
+  }
+}
