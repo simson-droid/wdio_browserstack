@@ -11,15 +11,7 @@ var override={
             'bstack:options': {
             os: 'Windows',
             osVersion: '11',
-            browserVersion: '103.0'
-            }
-        },
-        {
-            browserName: 'Safari',
-            'bstack:options': {
-            os: 'OS X',
-            osVersion: 'Big Sur',
-            browserVersion: '14.1'
+            browserVersion: '114.0'
             }
         }
         ],

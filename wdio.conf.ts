@@ -77,7 +77,7 @@ export const config: Options.Testrunner = {
     */
         {
             browserName:"Chrome",
-            browserVersion:"114.0",
+            browserVersion:"latest",
             'bstack:options':{
                 os:'Windows',
                 osVersion:'11'
