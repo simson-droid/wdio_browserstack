@@ -1,6 +1,6 @@
 name: CIbstack dispatch
 on: 
-workflow_dispatch:
+  workflow_dispatch:
     inputs:
       platform:
         description: 'Select where to run'
