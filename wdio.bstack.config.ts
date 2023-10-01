@@ -1,9 +1,10 @@
 import { config } from "./wdio.conf";
 var _=require('lodash')
+require('dotenv').config()
 
 var override={
-    user:'simsonts_0aycxT' || process.env.BROWSERSTACK_USERNAME,
-    key:'fzCHw2YS7yRPdEzB6Fzy' || process.env.BROWSERSTACK_ACCESS_KEY,
+    user: process.env.BROWSERSTACK_USERNAME,
+    key:process.env.BROWSERSTACK_ACCESS_KEY,
     capabilities:[
         
         {

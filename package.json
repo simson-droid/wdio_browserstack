@@ -15,10 +15,11 @@
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
     "allure-reporter": "allure generate --clean ./reports/allure/allure-results && allure open",
-    "wdio-bstack":"wdio run ./wdio.bstack.conf.ts"
+    "wdio-bstack": "wdio run ./wdio.bstack.conf.ts"
   },
   "dependencies": {
     "allure-commandline": "^2.24.0",
+    "dotenv": "^16.3.1",
     "node-fetch": "^2.7.0"
   }
 }
